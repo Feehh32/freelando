@@ -1,12 +1,16 @@
 import React from "react";
 import { Estilos } from "./componentes/EstilosGlobais/Estilos";
+import { Card } from "./componentes/Card/Card";
+import { ProvedorDoTema } from "./componentes/ProvedorTema/ProvedorTema";
 
 function App() {
 	return (
-		<div>
+		<ProvedorDoTema>
 			<Estilos />
-			<h1>Freelando</h1>
-		</div>
+			<Card>
+				<h1>Freelando</h1>
+			</Card>
+		</ProvedorDoTema>
 	);
 }
 
