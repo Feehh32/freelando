@@ -16,19 +16,23 @@ const tema = {
             c: ''
         },
         neutras: {
-            a: '',
+            a: '#373737',
             b: '',
-            c: '',
+            c: '#F5F5F5',
             d: ''
         },
+        branco: "#FFFFFF",
         dark: {
             a: '',
             b: ''
         }
     },
     espacamentos:{
+        xs: '8px',
         s: '16px',
-        l: '32px'
+        m: '24px',
+        l: '32px',
+        xl: '48px'
     },
     fontFamily: "'Montserrat', sans-serif"
 }
