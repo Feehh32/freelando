@@ -1,21 +1,28 @@
-import styled from "@emotion/styled"
-import { Logo } from "../Logo/Logo"
-import { Login } from "../Login/Login"
+import { Login } from "../Login/Login";
+import { FreelandoLogo } from "../FreelandoLogo/FreelandoLogo";
+
+import styled from "@emotion/styled";
+import { Col, Container, Row } from "react-grid-system";
 
 const HeaderStylizado = styled.header`
     background-color:${props => props.theme.cores.primarias.a};
-    padding: ${props => props.theme.espacamentos.m} 120px;
-    display: flex;
-    justify-content: space-between;
+    padding: ${props => props.theme.espacamentos.m};
 `
 
-
 export const Cabecalho = () => {
-    
+
     return (
         <HeaderStylizado>
-            <Logo />
-            <Login />
+            <Container>
+                <Row align="center">
+                    <Col>
+                        <FreelandoLogo />
+                    </Col>
+                    <Col style={{textAlign: 'right'}}> 
+                        <Login>Login</Login>
+                    </Col>
+                </Row>
+            </Container>
         </HeaderStylizado>
     )
 }

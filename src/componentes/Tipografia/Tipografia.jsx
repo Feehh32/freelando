@@ -16,41 +16,49 @@ const estilos = {
     font-size: 40px;
     font-weight: 600;
     line-height: normal;
+    margin:0;
     `,
     h2: `
     font-size: 32px;
     font-weight: 600;
     line-height: normal;
+    margin:0;
     `,
     h3: `
     font-size: 24px;
     font-weight: 500;
     line-height: normal;
+    margin:0;
     `,
     body: `
     font-size: 20px;
     font-weight: 400;
     line-height: normal;
+    margin:0;
     `,
     bodyBold:`
     font-size: 20px;
     font-weight: 700;
     line-height: normal;
+    margin:0;
     `,
     body2:`
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
+    margin:0;
     `,
     body2Bold:`
     font-size: 16px;
     font-weight: 700;
     line-height: normal;
+    margin:0;
     `,
     legenda:`
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
+    margin:0;
     `
 }
 

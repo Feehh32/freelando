@@ -13,6 +13,7 @@ const InputEstilizado = styled.input`
     display: block;
     width: 100%;
     margin-top: ${props => props.theme.espacamentos.xs};
+    margin-bottom: ${props => props.theme.espacamentos.s};
     background-color: ${props => props.theme.cores.branco};
     border-radius: ${props => props.theme.espacamentos.s};
     border: 1px solid;
@@ -26,11 +27,11 @@ const InputEstilizado = styled.input`
     box-sizing: border-box;
 `
 
-export const CampoTexto = ({titulo}) => {
+export const CampoTexto = ({titulo, type = 'text'}) => {
     return (
         <LabelEstilizada >
             {titulo}
-            <InputEstilizado type="text" />
+            <InputEstilizado type={type} />
         </LabelEstilizada>
     )
 }
